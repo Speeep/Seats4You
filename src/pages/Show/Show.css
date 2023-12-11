@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div #pageTitle {
+  padding: 1em;
+}
+div .show {
+  margin: 0 4em;
+}
+div .show h1 {
+  padding: 1em 0;
+}
+div .venueLayout {
+  margin: 2em 4em;
+}
+div .seats {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1em 0;
+}
+div .seats .block {
+  padding: 1em;
+}
+div .purchase {
+  margin: 1em;
+}
+div .purchase button {
+  margin: 1em;
+}/*# sourceMappingURL=Show.css.map */

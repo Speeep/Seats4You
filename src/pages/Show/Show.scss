@@ -1,0 +1,44 @@
+@import "../../constants/constants.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    #pageTitle {
+        padding: 1em;
+    }
+
+    .show {
+        margin: 0 4em;
+
+        h1 {
+            padding: 1em 0;
+        }
+    }
+
+    .venueLayout {
+        margin: 2em 4em;
+    }
+
+    .seats {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 1em 0;
+
+        .block {
+            padding: 1em;
+        }
+    }
+
+    .purchase {
+        margin: 1em;
+
+        button {
+            margin: 1em;
+        }
+    }
+}

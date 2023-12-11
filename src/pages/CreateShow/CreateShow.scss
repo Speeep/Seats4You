@@ -1,0 +1,52 @@
+@import "../../constants/constants.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+
+    #pageTitle {
+        padding: 1em;
+    }
+
+    .createShow {
+        padding: 0 4em;
+
+        .showDetails {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .blocks {
+            width: 100%;
+
+            .blockForm {
+
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    margin: 0.5em;
+                    // justify-content: space-between;
+
+                    div {
+                        display: inline-block;
+                    }
+                }
+            }
+        }
+
+        .createShowButton {
+            text-align: right;
+            margin-bottom: 1em;
+
+            a {
+                display: inline-block;
+                @include button($clickable-color, $clickable-hover);
+                margin-top: 1em;
+            }
+        }
+    }
+}

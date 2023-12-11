@@ -1,0 +1,36 @@
+@import "../../constants/constants.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+
+    #pageTitle {
+        padding: 1em;
+    }
+
+    .actors {
+        
+        div {
+            margin-bottom: 1em;
+
+            .actorButtons {
+                display: flex;
+                flex-direction: row;
+
+                a {
+                    margin: 0em 1em;
+                    text-decoration: none;
+                    @include button($clickable-color, $clickable-hover);
+                }
+            }
+            
+            .searchShows {
+                margin: 3em 12em;
+            }
+        }
+    }
+}

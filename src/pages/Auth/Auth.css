@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div #pageTitle {
+  padding: 1em;
+}
+div #logout {
+  margin: 2em;
+}
+div .loginSection {
+  margin: 2em 12em;
+}/*# sourceMappingURL=Auth.css.map */

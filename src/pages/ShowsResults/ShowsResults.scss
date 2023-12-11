@@ -1,0 +1,45 @@
+@import "../../constants/constants.scss";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+
+    #pageTitle {
+        padding: 1em;
+    }
+
+    #resultsTitle {
+        padding: 1em;
+    }
+
+    .results {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 2em;
+        margin-bottom: 1em;
+        justify-content: center;
+
+        a {
+            margin: 1em;
+            text-decoration: none;
+
+            .show {
+                padding: 4em 3em;
+                background-color: $show-color;
+                border-radius: 10px;
+                color: white;
+                border: 2px solid black;
+
+                &:hover {
+                    background-color: $show-hover;
+                    color: white;
+                }
+            }
+        }
+    }
+}

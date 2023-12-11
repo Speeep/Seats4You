@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div #pageTitle {
+  padding: 1em;
+}
+div #resultsTitle {
+  padding: 1em;
+}
+div .results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 2em;
+  margin-bottom: 1em;
+  justify-content: center;
+}
+div .results a {
+  margin: 1em;
+  text-decoration: none;
+}
+div .results a .show {
+  padding: 4em 3em;
+  background-color: #007f83;
+  border-radius: 10px;
+  color: white;
+  border: 2px solid black;
+}
+div .results a .show:hover {
+  background-color: #00636b;
+  color: white;
+}/*# sourceMappingURL=ShowsResults.css.map */

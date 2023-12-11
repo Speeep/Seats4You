@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div #pageTitle {
+  padding: 1em;
+}
+div .createShow {
+  padding: 0 4em;
+}
+div .createShow .showDetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div .createShow .blocks {
+  width: 100%;
+}
+div .createShow .blocks .blockForm div {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5em;
+}
+div .createShow .blocks .blockForm div div {
+  display: inline-block;
+}
+div .createShow .createShowButton {
+  text-align: right;
+  margin-bottom: 1em;
+}
+div .createShow .createShowButton a {
+  display: inline-block;
+  padding: 1em 1em;
+  background-color: #0074D9;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+div .createShow .createShowButton a:hover {
+  background-color: #0063B1;
+  color: white;
+}/*# sourceMappingURL=CreateShow.css.map */

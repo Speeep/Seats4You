@@ -1,0 +1,44 @@
+@import "../../constants/constants.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+
+    #pageTitle {
+        padding: 1em;
+    }
+
+    .actions {
+
+        a {
+            display: inline-block;
+            @include button($clickable-color, $clickable-hover);
+            margin-left: 4em;
+        }
+    }
+
+    .allVenues {
+        padding: 0em 4em;
+        margin: 2em 0;
+
+        div {
+
+            h3 {
+                padding: 0.5em;
+                margin: 0;
+            }
+
+            div {
+                padding: 1em;
+                margin-left: 2em;
+
+                a {
+                    @include button($secondary-color, $secondary-hover, black);
+                }
+            }
+        }
+    }
+}

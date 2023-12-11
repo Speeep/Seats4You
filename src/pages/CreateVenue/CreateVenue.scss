@@ -1,0 +1,85 @@
+@import "../../constants/constants.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+
+    #pageTitle {
+        padding: 1em;
+    }
+
+    .createVenue {
+        padding: 0 4em;
+
+        .layout {
+            border: 2px solid black;
+
+            .stage {
+                background-color: bisque;
+                text-align: center;
+                padding: 0.5em;
+                font-weight: bold;
+            }
+
+            .seatsArea {
+                display: flex;
+                flex-direction: row;
+                padding: 1em;
+
+                .rowLabels {
+                    
+                    div {
+                        padding: 0.5em;
+                        margin: 0.2em;
+                        text-align: center;
+                        vertical-align: middle;
+                    }
+                }
+
+                .sections {
+                    display: flex;
+                    flex-direction: row;
+                    width: 100%;
+                    justify-content: space-between;
+
+                    div {
+                        text-align: center;
+                        display: flex;
+                        flex-direction: column;
+                        padding: 0em 0.5em;
+
+                        .seatRow {
+                            display: flex;
+                            flex-direction: row;
+
+                            .seat {
+                                padding: 0.5em 1em;
+                                margin: 0.1em;
+                                background-color: grey;
+                                color: white;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .venueForm {
+            margin: 1em;
+
+            .sectionInputs {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .submitButton {
+                text-align: right;
+            }
+        }
+    }
+}

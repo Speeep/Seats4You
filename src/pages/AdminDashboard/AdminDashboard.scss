@@ -1,0 +1,37 @@
+@import "../../constants/constants.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+
+    #pageTitle {
+        padding: 1em;
+    }
+
+    .actions {
+        margin: 2em 0em;
+
+        a {
+            @include button($clickable-color, $clickable-hover);
+            margin-left: 4em;
+        }
+    }
+
+    .venues {
+        margin-left: 4em;
+
+        div {
+            padding: 0.5em 0em;
+
+            a {
+                display: inline-block;
+                @include button($secondary-color, $secondary-hover);
+                margin-left: 2em;
+            }
+        }
+    }
+}

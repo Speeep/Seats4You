@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div #pageTitle {
+  padding: 1em;
+}
+div #venueNameTitle {
+  padding-left: 2em;
+  padding-bottom: 1em;
+}
+div .venue {
+  padding: 0em 4em;
+}
+div .deleteButton {
+  margin: 3em 1em;
+  text-align: right;
+}
+div .deleteButton a {
+  margin-right: 3em;
+  padding: 1em 1em;
+  background-color: #FF4136;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+div .deleteButton a:hover {
+  background-color: #E62E1F;
+  color: white;
+}
+div .shows {
+  margin-left: 4em;
+}
+div .shows .showTable {
+  border-collapse: collapse;
+  width: 95%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border: 1px solid #ddd;
+}
+div .shows .showTable th, div .shows .showTable td {
+  text-align: left;
+  padding: 0.5em;
+}
+div .shows .showTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+div .shows .showTable th {
+  background-color: #818181;
+  color: white;
+}
+div .shows .showTable .deleteShow a {
+  display: inline-block;
+  padding: 1em 1em;
+  background-color: #FF4136;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+div .shows .showTable .deleteShow a:hover {
+  background-color: #E62E1F;
+  color: white;
+}/*# sourceMappingURL=Venue.css.map */

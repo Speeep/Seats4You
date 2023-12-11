@@ -1,0 +1,9 @@
+{
+  "name": "ticketing",
+  "version": "0.1.0",
+  "dependencies": {
+    "denque": "^2.1.0",
+    "mysql2": "^3.6.5",
+    "sqlstring": "^2.3.3"
+  }
+}

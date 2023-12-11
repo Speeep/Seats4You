@@ -1,0 +1,27 @@
+@import "../../constants/constants.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    #pageTitle {
+        padding: 1em;
+    }
+
+    #venues {
+        margin: 1em 4em;
+
+        #shows {
+
+            div {
+                margin: 1em 4em;
+
+                p {
+                    margin-left: 1em;
+                }
+            }
+        }
+    }
+}

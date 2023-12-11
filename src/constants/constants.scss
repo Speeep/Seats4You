@@ -1,0 +1,24 @@
+$clickable-color: #0074D9;
+$clickable-hover: #0063B1;
+$danger: #FF4136;
+$danger-hover: #E62E1F;
+
+$secondary-color: #7FDBFF;
+$secondary-hover: #39CCCC;
+
+$show-color: #007f83;
+$show-hover: #00636b;
+
+@mixin button($color, $hover-color, $text-color: white) {
+    padding: 1em 1em;
+    background-color: $color;
+    color: $text-color;
+    text-decoration: none;
+    // border: 1px solid black;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: $hover-color;
+        color: $text-color;
+    }
+}

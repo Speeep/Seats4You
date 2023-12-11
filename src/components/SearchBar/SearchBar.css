@@ -1,0 +1,7 @@
+.searchForm .searchInput {
+  display: flex;
+}
+.searchForm .searchInput #search {
+  border: black 2px solid;
+  margin-right: 0.5em;
+}/*# sourceMappingURL=SearchBar.css.map */

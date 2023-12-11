@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div #pageTitle {
+  padding: 1em;
+}
+div .actions a {
+  display: inline-block;
+  padding: 1em 1em;
+  background-color: #0074D9;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-left: 4em;
+}
+div .actions a:hover {
+  background-color: #0063B1;
+  color: white;
+}
+div .allVenues {
+  padding: 0em 4em;
+  margin: 2em 0;
+}
+div .allVenues div h3 {
+  padding: 0.5em;
+  margin: 0;
+}
+div .allVenues div div {
+  padding: 1em;
+  margin-left: 2em;
+}
+div .allVenues div div a {
+  padding: 1em 1em;
+  background-color: #7FDBFF;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+}
+div .allVenues div div a:hover {
+  background-color: #39CCCC;
+  color: black;
+}/*# sourceMappingURL=VenueDashboard.css.map */

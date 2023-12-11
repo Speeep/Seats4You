@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar-link {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    color: var(--text-light);
+    text-align: left;
+    cursor: pointer;
+    padding-left: 2em;
+    text-decoration: none;
+}
+
+.top-bar-link:hover {
+    color: grey;
+}

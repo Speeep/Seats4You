@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div #pageTitle {
+  padding: 1em;
+}
+div #venues {
+  margin: 1em 4em;
+}
+div #venues #shows div {
+  margin: 1em 4em;
+}
+div #venues #shows div p {
+  margin-left: 1em;
+}/*# sourceMappingURL=ShowReport.css.map */

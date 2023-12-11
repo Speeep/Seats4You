@@ -1,0 +1,66 @@
+@import "../../constants/constants.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+
+    #pageTitle {
+        padding: 1em;
+    }
+
+    #venueNameTitle {
+        padding-left: 2em;
+        padding-bottom: 1em;
+    }
+
+    .venue {
+        padding: 0em 4em;
+    }
+
+    .deleteButton {
+        margin: 3em 1em;
+        text-align: right;
+
+        a {
+            margin-right: 3em;
+            @include button($danger, $danger-hover, white);
+        }
+    }
+
+    .shows {
+        margin-left: 4em;
+
+        .showTable {
+            border-collapse: collapse;
+            width: 95%;
+            margin-top: 2em;
+            margin-bottom: 2em;
+            border: 1px solid #ddd;
+
+            th, td {
+                text-align: left;
+                padding: 0.5em;
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            th {
+                background-color: #818181;
+                color: white;
+            }
+
+            .deleteShow {
+
+                a {
+                    display: inline-block;
+                    @include button($danger, $danger-hover, white);
+                }
+            }
+        }
+    }
+}

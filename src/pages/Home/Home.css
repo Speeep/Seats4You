@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div #pageTitle {
+  padding: 1em;
+}
+div .actors div {
+  margin-bottom: 1em;
+}
+div .actors div .actorButtons {
+  display: flex;
+  flex-direction: row;
+}
+div .actors div .actorButtons a {
+  margin: 0em 1em;
+  text-decoration: none;
+  padding: 1em 1em;
+  background-color: #0074D9;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+div .actors div .actorButtons a:hover {
+  background-color: #0063B1;
+  color: white;
+}
+div .actors div .searchShows {
+  margin: 3em 12em;
+}/*# sourceMappingURL=Home.css.map */
